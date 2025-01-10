@@ -10,9 +10,9 @@ export default function MainLayout({
 }: MainLayoutProps) {
     return (
         <>
-            <Header title="Miledash" />
+            <Header />
             {children}
-            <Footer title="Miledash" />
+            <Footer />
         </>
     );
 }
